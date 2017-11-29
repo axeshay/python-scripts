@@ -1,1 +1,1 @@
-@py.exe C:\Users\comp\pythonscripts\wikipedia.py %*
+@py.exe /your_path/wikipedia.py %*
