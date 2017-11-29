@@ -1,1 +1,0 @@
-@py.exe C:\Users\comp\pythonscripts\wikiinfo.py %*
