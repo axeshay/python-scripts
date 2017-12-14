@@ -3,7 +3,7 @@
 import PyPDF2
 import random
 #To encrypt PDF using PyPDF2 module
-'''pdfFile = PyPDF2.PdfFileReader(open("meetingminutes.pdf","rb"))
+'''pdfFile = PyPDF2.PdfFileReader(open("sample.pdf","rb"))
 pdfWriter = PyPDF2.PdfFileWriter()
 		
 for pages in range(pdfFile.numPages):
@@ -16,7 +16,7 @@ pdfWriter.write(result)
 result.close()'''
 
 # 2)open the encrypted PDF
-result = PyPDF2.PdfFileReader(open("encryptedpdf.pdf","rb"))
+result = PyPDF2.PdfFileReader(open("encryptedpdf.pdf","rb"))  # Replace with your filename
 
 
 # 3) Get random keywords from the textfile
