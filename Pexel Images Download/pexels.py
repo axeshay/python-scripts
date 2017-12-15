@@ -4,7 +4,7 @@ import requests
 os.makedirs('pexels', exist_ok=True)
 user_input = str(input("Enter the search term: "))
 res = requests.get("https://pexels.com/search/" + user_input)
-soup = bs4.BeautifulSoup(res.text, "lxml")
+soup = bs.BeautifulSoup(res.text, "lxml")
 image_element = soup.select("article a img")
 for i in range(0, len(image_element)):
     image_url = image_element[i].get('src').split("?")[0]
